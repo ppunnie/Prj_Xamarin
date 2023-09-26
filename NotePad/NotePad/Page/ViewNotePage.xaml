@@ -18,13 +18,6 @@
                 <StackLayout Orientation="Horizontal">
                     <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
                         <StackLayout.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="BtnShare_Click" ></TapGestureRecognizer>
-                        </StackLayout.GestureRecognizers>
-                        <Image Source = "share.png" BackgroundColor = "#f3f2f3" HeightRequest="28" HorizontalOptions="FillAndExpand"/>
-                        <Label Text="Share" HorizontalTextAlignment="Center" />
-                    </StackLayout >
-                    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
-                        <StackLayout.GestureRecognizers>
                             <TapGestureRecognizer Tapped="BtnClear_Click"></TapGestureRecognizer>
                         </StackLayout.GestureRecognizers>
                         <Image Source = "clear.png"  BackgroundColor = "#f3f2f3" HeightRequest = "28" HorizontalOptions="FillAndExpand"/>

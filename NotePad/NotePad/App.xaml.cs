@@ -33,8 +33,8 @@ namespace NotePad
                 {
                     await Database.SaveNoteAsync(new Notes
                     {
-                        Title = "Example of a note",
-                        Description = $"Write notes that will last!\nYour notes are your own but you can also share them.\nSee you next time @kigames.",
+                        Title = "NotePad",
+                        Description = $"Nhom 2 - Xamarin",
                         Date = DateTime.Now,
                         IsChecked = false,
                         HexColor = "#800000",

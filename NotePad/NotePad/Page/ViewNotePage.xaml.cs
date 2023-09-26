@@ -60,18 +60,6 @@ namespace NotePad.Page
             EditorDescription.Text = "";
             EntryTitle.Text = "";
         }
-
-        private void BtnShare_Click(object sender, EventArgs e)
-        {
-            Share.RequestAsync(new ShareTextRequest
-            {
-                Text = $"\nDate : {note.Date}\nDescription : {note.Description}  ",
-                Title = note.Title,
-                Subject = $"{note.Title}",
-                Uri = "https://www.youtube.com/c/KIGAMESYTB"
-            });
-        }
-
         #endregion
     }
 }
